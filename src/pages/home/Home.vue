@@ -17,11 +17,11 @@ import HomeWeekend from './components/Weekend'
 export default {
   name: 'Home',
   components: {
-      HomeHeader,
-      HomeSwiper,
-      HomeIcons,
-      HomeRecommend,
-      HomeWeekend
+    HomeHeader,
+    HomeSwiper,
+    HomeIcons,
+    HomeRecommend,
+    HomeWeekend
   }
 }
 </script>

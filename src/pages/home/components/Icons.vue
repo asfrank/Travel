@@ -2,8 +2,8 @@
   <div class="icons">
     <swiper>
       <swiper-slide v-for="(page, index) of pages" :key="index">
-        <div class="icon" 
-             v-for="item of page" 
+        <div class="icon"
+             v-for="item of page"
              :key="item.id">
           <div class="icon-img">
             <img class="icon-img-content" :src="item.imgUrl" />
@@ -63,12 +63,12 @@ export default {
     pages () {
       const pages = []
       this.iconList.forEach((item, index) => {
-        const page = Math.floor(index / 8);
+        const page = Math.floor(index / 8)
         if (!pages[page]) {
-          pages[page] = [];
+          pages[page] = []
         }
-        pages[page].push(item);
-      } )
+        pages[page].push(item)
+      })
       return pages
     }
   }

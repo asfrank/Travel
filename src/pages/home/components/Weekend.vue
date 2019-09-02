@@ -21,21 +21,21 @@ export default {
   data () {
     return {
       recommendList: [{
-      id: '0001',
-      imgUrl: 'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
-      title: '大连圣亚海洋世界',
-      desc: '海昌发现王国海昌发现王国海昌发现王国海昌发现王国'
-    }, {
-      id: '0002',
-      imgUrl: 'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
-      title: '大连圣亚海洋世界',
-      desc: '海昌发现王国海昌发现王国海昌发现王国海昌发现王国'
-    }, {
-      id: '0003',
-      imgUrl: 'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
-      title: '大连圣亚海洋世界',
-      desc: '海昌发现王国海昌发现王国海昌发现王国海昌发现王国'
-    }]
+        id: '0001',
+        imgUrl: 'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
+        title: '大连圣亚海洋世界',
+        desc: '海昌发现王国海昌发现王国海昌发现王国海昌发现王国'
+      }, {
+        id: '0002',
+        imgUrl: 'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
+        title: '大连圣亚海洋世界',
+        desc: '海昌发现王国海昌发现王国海昌发现王国海昌发现王国'
+      }, {
+        id: '0003',
+        imgUrl: 'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
+        title: '大连圣亚海洋世界',
+        desc: '海昌发现王国海昌发现王国海昌发现王国海昌发现王国'
+      }]
     }
   }
 }
